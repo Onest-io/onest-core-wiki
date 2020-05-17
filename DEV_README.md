@@ -6,7 +6,7 @@ How to use fc async to do recurring tasks
     _my_task = fc::schedule( callable, "My Task 2", exec_time );
 
 Stuff to know about the code
-----------------------------
+------------------------------
 
 `static_variant<t1, t2>` is a *union type* which says "this variable may be either t1 or t2."  It is serializable if t1 and t2 are both serializable.
 
